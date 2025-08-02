@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="3"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/mvi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="18dp"
+
+        android:layout_weight="1"
+
+
+        android:src="@drawable/ic_launcher_background">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="vertical">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Movie Title"
+            android:layout_margin="20dp"
+        android:textSize="18dp"
+        android:id="@+id/mvt">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Movie Hero"
+        android:textSize="18dp"
+
+        android:layout_weight="1"
+        android:id="@+id/mvh">
+    </TextView>
+</LinearLayout>
+
+</LinearLayout>
