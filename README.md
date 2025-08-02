@@ -29,20 +29,6 @@ A sleek Android application built with **Kotlin** showcasing a list of movies us
 1. **Clone this repository**
    ```bash
    git clone https://github.com/your-username/RecyclerView-Movies-App.git
-📁 app/
- ┣ 📁 src/
- ┃ ┣ 📁 main/
- ┃ ┃ ┣ 📁 java/
- ┃ ┃ ┃ ┗ 📁 com/yourpackage/movies/
- ┃ ┃ ┃ ┃ ┣ 📄 MainActivity.kt
- ┃ ┃ ┃ ┃ ┣ 📄 Movie.kt
- ┃ ┃ ┃ ┃ ┣ 📄 MovieAdapter.kt
- ┃ ┃ ┣ 📁 res/
- ┃ ┃ ┃ ┣ 📁 layout/
- ┃ ┃ ┃ ┃ ┣ 📄 activity_main.xml
- ┃ ┃ ┃ ┃ ┣ 📄 item_movie.xml
- ┃ ┃ ┃ ┣ 📁 drawable/
- ┃ ┃ ┃ ┣ 📁 values/
 
 🧑‍💻 Developed by
 Tasneem Banu
